@@ -1,0 +1,36 @@
+
+section img{
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgb(83,4, 4);
+}
+
+.cadet{
+    width: 15%;
+}
+
+section a{
+    width: 15%;
+}
+
+.liste ul{
+    list-style: none;
+}
+
+.liste li{
+    margin-top: 25px;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section p{
+    margin-left: 15px;
+}
+
+
+
+

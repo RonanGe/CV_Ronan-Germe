@@ -1,0 +1,45 @@
+section{
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.code, .outil, .langue{
+    border: solid 5px rgb(83,4, 4);
+    border-radius: 15px;
+    box-shadow:4px 4px 15px rgb(83,4, 4) ;
+    padding: 15px;
+    width: 30%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.code img, .outil img, .langue img{
+    height: 110px;
+    width: 19%;
+    object-fit: cover;
+}
+
+div ul{
+    list-style: none;
+}
+
+div li{
+    margin-top: 25px;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span{
+    margin-left: 15px;
+}
+
+span i{
+    color: blue;
+}

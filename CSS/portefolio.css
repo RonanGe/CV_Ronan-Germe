@@ -1,0 +1,32 @@
+section{
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.vignette{
+    border: solid 5px rgb(83,4, 4);
+    border-radius: 15px;
+    box-shadow:4px 4px 15px rgb(83,4, 4) ;
+    margin-bottom: 50px;
+    width: 96%;
+}
+figure{
+    width: 95%;
+}
+
+figure img{
+    height: 700px;
+    width: 100%;
+}
+
+figcaption{
+    font-size: 1.5em;
+}
+
+.realisation a{
+    font-size: 1.5em;
+    text-decoration: underline 3px rgb(83,4, 4);
+}
