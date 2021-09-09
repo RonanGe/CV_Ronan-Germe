@@ -1,0 +1,17 @@
+@media all and (max-width: 720px){
+    .vignette{
+        width: 89%;
+    }
+
+    figure{
+        width: 76%;
+    }
+
+    figure img{
+        height: 175px;
+    }
+
+    figcaption{
+        font-size: 1.1em;
+    }
+}
