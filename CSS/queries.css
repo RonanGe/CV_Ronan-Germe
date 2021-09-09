@@ -1,0 +1,77 @@
+@media all and (max-width: 720px){
+    body {
+        margin: 0;
+        width: 100%;
+    }
+
+    a:active{
+        color: rgb(83,4, 4);
+    }
+
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: rgb(83,4, 4);
+        cursor: pointer;
+    }
+
+    #toggle:checked + .slideRight {
+        display: flex;
+    }
+
+    header{
+        padding-bottom: 0;
+        display: block;
+    }
+
+    header img{
+        width: 40%;
+        margin-left: 31%;
+        margin-top: 15px;
+    }
+
+    header h1{
+        font-size: 3em;
+        margin-left: 12%;
+    }
+
+    nav{
+        margin-top: 15px ;
+    }
+
+    nav ul{
+        display: none;
+        flex-direction: column;
+        background: silver;
+        border: solid 5px rgb(83,4, 4);
+        border-radius: 15px;
+        box-shadow:4px 4px 15px rgb(83,4, 4) ;
+        height: 220px;
+    }
+
+    nav ul a{
+        width: 50%;
+    }
+
+    footer ul{
+        display: block;
+        list-style: disc;
+    }
+
+    footer ul{
+        font-size: 1.1em;
+    }
+
+    nav li, footer li{
+        padding-bottom: 8px;
+    }
+
+    section{
+        margin-top: 15px;
+    }
+}

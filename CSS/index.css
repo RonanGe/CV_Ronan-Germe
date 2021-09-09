@@ -1,6 +1,6 @@
 body{
     font-family: Roboto;
-    background-color: rgb(180, 170, 170);
+    background: linear-gradient(silver, white);
 }
 
 a{
@@ -10,6 +10,10 @@ a{
 
 a:hover{
     color: rgb(83,4, 4);
+}
+
+label, #toggle{
+    display: none;
 }
 
 header{
